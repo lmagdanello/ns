@@ -28,15 +28,15 @@ The same is true for "-j", "-y" and "-d"#### ns (node status)
 ----
 Examples:
 
-*Note: In '-n, --nodes' you can use different combinations of node sets:*
+*In '-n, --nodes' you can use different combinations of node sets:*
 
 **e.g.:**
-    - n00
-    - n00,n01
-    - n00 n01
-    - n[00-01]
-    - n[00,03-04]
-    - n00,n[01],n[03-4]
++ n00
++ n00,n01
++ n00 n01
++ n[00-01]
++ n[00,03-04]
++ n00,n[01],n[03-4]
 --
 
 ```shell
@@ -50,7 +50,7 @@ $ ns.py --down --nodes n[00,01]
 OUTPUT:
     n01: down
 ```
-*Note: Only the nodes down in the set of nodes will be presented in the output.*
+> *Note: Only the nodes down in the set of nodes will be presented in the output.*
 
 *The values that determine an 'inactive' node are:*
 ```shell
@@ -82,7 +82,7 @@ OUTPUT:
     ]
 }
 ```
-*Note: The 'res' command will map all reservations and their respective nodes and will present them in JSON format*
+> *Note: The 'res' command will map all reservations and their respective nodes and will present them in JSON format*
 
 ----
 TO-DO:
