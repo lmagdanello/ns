@@ -3,7 +3,7 @@
 ns *(nodes status)* is a CLI created to translate the status of Slurm nodes (and a few other things)! 
 
 ----
-
+```shell
 Usage:
 
   -h, --help    show this help message and exit
@@ -21,5 +21,6 @@ e.g.:
         ns -s -n n00,n01,n[02-03]
 
 The same is true for "-j", "-y" and "-d"#### ns (node status) 
+```
 
 
