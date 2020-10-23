@@ -29,7 +29,8 @@ The same is true for "-j", "-y" and "-d"#### ns (node status)
 Examples:
 
 *Note: In '-n, --nodes' you can use different combinations of node sets:*
-*e.g.:
+
+**e.g.:**
 - n00
 - n00,n01
 - n00 n01
@@ -46,9 +47,10 @@ OUTPUT:
 ```shell
 $ ns.py --down --nodes n[00,01]
 OUTPUT:
-    c01: down
+    n01: down
 ```
 *Note: Only the nodes down in the set of nodes will be presented in the output.*
+
 *The values that determine an 'inactive' node are:*
 ```shell
 down = ['drain', 'drain*', 'down', 'down*', 'idle*']
@@ -80,6 +82,7 @@ OUTPUT:
 }
 ```
 *Note: The 'res' command will map all reservations and their respective nodes and will present them in JSON format*
+
 ----
 TO-DO:
 - [ ] Improve commands executed by subprocess
