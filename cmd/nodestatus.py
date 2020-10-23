@@ -38,7 +38,7 @@ class NodesStatus:
         down = ['drain', 'drain*', 'down', 'down*', 'idle*']
         for k, v in self.status().items():
             if v in down:
-                print(k + ': ' + Color.RED + v + Color.END)
+                print('\n' + k + ': ' + Color.RED + v + Color.END + '\n')
 
     def nodesRes():
         nodesRes = {}
