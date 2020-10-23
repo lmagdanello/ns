@@ -52,4 +52,4 @@ class NodesStatus:
         print(json.dumps(self.status(), sort_keys=True, indent=4))
 
     def showYaml(self):
-        print(yaml.dump(self.status()))
+        print('\n' + yaml.dump(self.status()))
