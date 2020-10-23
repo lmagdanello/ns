@@ -31,12 +31,13 @@ Examples:
 *Note: In '-n, --nodes' you can use different combinations of node sets:*
 
 **e.g.:**
-- n00
-- n00,n01
-- n00 n01
-- n[00-01]
-- n[00,03-04]
-- n00,n[01],n[03-4]
+    - n00
+    - n00,n01
+    - n00 n01
+    - n[00-01]
+    - n[00,03-04]
+    - n00,n[01],n[03-4]
+--
 
 ```shell
 $ ns.py --status --nodes n00
