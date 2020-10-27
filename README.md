@@ -90,6 +90,7 @@ TO-DO:
 - [ ] Receive a node set from a file
 - [ ] Map the reason why the node is out of the queue (JSON)
 - [ ] Add setup.py, requirements.txt and Makefile
+- [ ] HTTP API (Flask)
 - [ ] And a few more things...
 ----
 
