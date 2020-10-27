@@ -14,7 +14,7 @@ e.g.: \n\
         ns -s -n n[00-01] \n\
         ns -s -n n00 n01 \n\
         ns -s -n n00,n01,n[02-03] \n\n\
-The same is true for "-j", "-y" and "-d"'''))
+'''))
 
     parser.add_argument('-r', '--res', action='store_true', help='Maps the reservations and their respective nodes in a JSON')
     parser.add_argument('-s', '--status', action='store_true', help='Shows the status of the Nodes')

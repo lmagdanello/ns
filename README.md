@@ -22,9 +22,6 @@ e.g.:
         ns -s -n n[00-01]
         ns -s -n n00 n01
         ns -s -n n00,n01,n[02-03]
-
-The same is true for "-j", "-y" and "-d"
-
 ```
 ----
 Examples:
