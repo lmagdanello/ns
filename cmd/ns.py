@@ -18,7 +18,7 @@ e.g.: \n\
 
     parser.add_argument('-r', '--res', action='store_true', help='Maps the reservations and their respective nodes in a JSON')
     parser.add_argument('-s', '--status', action='store_true', help='Shows the status of the Nodes')
-    parser.add_argument('-d', '--down', action='store_true', help='Shows the node set nodes that are down')
+    parser.add_argument('-d', '--down', action='store_true', help='Shows the nodes in the set of nodes that are unavailable')
     parser.add_argument('-j', '--json', action='store_true', help='Shows the status of the Nodes in JSON format')
     parser.add_argument('-y', '--yaml', action='store_true', help='Shows the status of the Nodes in YAML format')
 

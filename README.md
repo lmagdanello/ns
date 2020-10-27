@@ -11,7 +11,7 @@ Usage:
   -h, --help    show this help message and exit
   -r, --res     Maps the reservations and their respective nodes in a JSON
   -s, --status  Shows the status of the Nodes
-  -d, --down    Shows the node set nodes that are down
+  -d, --down    Shows the nodes in the set of nodes that are unavailable
   -j, --json    Shows the status of the Nodes in JSON format
   -y, --yaml    Shows the status of the Nodes in YAML format
 
